@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# MATLAB / Simulink
+*.asv
+*.autosave
+slprj/
+*.slxc
+*.mex*
+*.p
+*.mex
+codegen/
+*.r20*
+
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.map
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+.ipynb_checkpoints/
+
+# Data / output files
+*.log
