@@ -34,8 +34,8 @@ float RoverStates[4] = {0}; // RoverGlobalCoordsX, RoverGlobalCoordsY, RoverGlob
 
 float TranslationalPosArray[] = { 0, 20, 20,   40,   40,  60,  60,  80}; // Put your commands array here
 float RotationalAngleArray[]  = { 0,  0, pi/2, pi/2, pi,  pi,  3*pi/2, 3*pi/2}; // Put your commands array here
-float CommandTimeInteval = 5; //sec
-float L_kp = 1; float theta_kp = 1;
+float CommandTimeInteval = 9; //sec
+float L_kp = 1; float theta_kp = 0.6;
 float TranslationalVelCmdSaturation = 8; // inch/sec
 float RotationalVelCmdSaturation = 2; // rad/sec
 
